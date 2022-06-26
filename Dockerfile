@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-COPY index.html .
+#COPY index.html .
 
 RUN cat index.html > /usr/share/nginx/html/index.html
 
